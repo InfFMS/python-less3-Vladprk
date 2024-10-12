@@ -9,7 +9,7 @@ b = False
 for i in range(n):
     a = int(input())
     delit = 0
-    for j in range(1, int(a**0.5)+2):
+    for j in range(1, a+1):
         if a % j == 0:
             delit += 1
     if delit == 2:
